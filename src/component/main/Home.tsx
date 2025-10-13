@@ -3,7 +3,7 @@ export default function Home(){
         <main id="main-content">
             <h2>Home</h2>
             <div className="intro">
-                <img src="../../assets/Zoe.jpg" alt="Zoe Zuo"/>
+                <img src="../../../public/Zoe.jpg" alt="Zoe Zuo"/>
                 <p id="about-me">
                     Hi, I’m Minjie (Zoe) Zuo. This website is my personal portfolio and resume,<br/>
                     I’m currently a senior student at Boston University majoring in Computer Science.<br/>

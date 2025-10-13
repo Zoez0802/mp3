@@ -1,4 +1,4 @@
-import bu from "../../assets/Boston_University.png";
+import bu from "../../../public/Boston_University.png";
 <img src={bu} alt="University" />
 //for my images on the web page
 
@@ -16,7 +16,7 @@ export default function Education() {
                     <li>Completed a study abroad program in <strong>London</strong> during Summer 2023</li>
                     <li>Currently a senior pursuing a <strong>Computer Science major</strong></li>
                 </ul>
-                <img src="../../assets/Boston_University.png" alt="University" />
+                <img src="../../../public/Boston_University.png" alt="University" />
             </section>
 
             <section id="high-school">

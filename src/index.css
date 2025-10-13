@@ -1,3 +1,6 @@
+@import url("https://fonts.googleapis.com/css2?family=Epunda+Slab:ital,wght@0,300..900;1,300..900&display=swap");
+/*i imported this for the use of google font*/
+
 * {
     margin: 0;
     box-sizing: border-box;
@@ -323,6 +326,7 @@ footer {
     text-align: center;
     background-color: #476f95;
     color: white;
+    flex-wrap: wrap;
 }
 
 /*Experiences internal page*/

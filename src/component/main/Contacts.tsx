@@ -20,13 +20,13 @@ export default function Contacts() {
                 <p>
                     <a href="https://www.linkedin.com/in/zoezuo0802/">LinkedIn Profile</a>
                 </p>
-                <img src="../../assets/linkedin.png" alt="Linkedin Profile" />
+                <img src="../../../public/linkedin.png" alt="Linkedin Profile" />
             </div>
 
             <div>
                 <h3>Location:</h3>
                 <p>Brooklyn, NY / Boston, MA</p>
-                <img src="../../assets/Location.png" alt="Location" />
+                <img src="../../../public/Location.png" alt="Location" />
             </div>
         </main>
     );
