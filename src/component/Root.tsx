@@ -12,14 +12,14 @@ import Contacts from "./main/Contacts";
 import { Routes, Route } from "react-router";
 export default function Root(){
     return(
-        <div>
+        <div id="page-wrapper">
             <Header/>
-            <div>
+            <div id="container">
                 <Nav/>
                 <Routes>
                     <Route path={`/`} element={<Home/>}/>
                     <Route path={`/education`}  element={<Education/>}/>
-                    <Route path={`/Work Experience`} element={<Experience/>}/>
+                    <Route path={`/Experience`} element={<Experience/>}/>
 
                     <Route path={`/Skills`} element={<Skills/>}/>
                     <Route path={`/Contacts`} element={<Contacts/>}/>

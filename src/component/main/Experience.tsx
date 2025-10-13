@@ -1,7 +1,7 @@
 export default function Experience() {
     return (
         <main className="timeline">
-            <h2>Work-Experience</h2>
+            <h2>Experience</h2>
 
             <section id="timeline">
                 <div>
