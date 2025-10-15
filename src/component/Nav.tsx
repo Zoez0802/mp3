@@ -3,7 +3,7 @@ import styled from "styled-components";
 
 
 const NavBar = styled.nav`
-  width: 30%;
+  width: 25%;
   background-color: #476f95;
   display: flex;
   flex-direction: column;
