@@ -242,7 +242,7 @@ p {
 .calc-botton {
     margin: 30px 40px;
     padding: 20px;
-    background: #1e2430;
+    background: lightsteelblue;
     border-radius: 22px;
     display: flex;
     flex-wrap: wrap;
