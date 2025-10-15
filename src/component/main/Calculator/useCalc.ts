@@ -5,37 +5,30 @@ export default function useCalc() {
     const [a, setA] = useState("");
     const [b, setB] = useState("");
     const [output, setOutput] = useState("");
-    const [color, setColor] = useState("black");
-
-    function Changecolor(value: number) {
-        setOutput(String(value)); //convert the output to string
-        if (value < 0) setColor("red");
-        else setColor("black");
-    }
+    // I do color switch is calcBotton
 
     function doAdd() {
         // MP1: String(Number(one.value) + Number(two.value))
         const ans = Number(a) + Number(b);
-        Changecolor(ans);
+        setOutput(String(ans));
     }
 
     function doSub() {
         const ans = Number(a) - Number(b);
-        Changecolor(ans);
+        setOutput(String(ans));
     }
 
     function doMul() {
         const ans = Number(a) * Number(b);
-        Changecolor(ans);
+        setOutput(String(ans));
     }
 
     function doDiv() {
         if (Number(b) === 0) {
             setOutput("ERROR :( ");
-            setColor("red");
         } else {
             const ans = Number(a) / Number(b);
-            Changecolor(ans);
+            setOutput(String(ans));
         }
     }
 
@@ -50,18 +43,18 @@ export default function useCalc() {
         if (exp < 0) {
             Answer = 1 / Answer;
         }
-        Changecolor(Answer);
+        setOutput(String(Answer));
     }
 
     function clearAll() {
         setA("");
         setB("");
         setOutput("");
-        setColor("black");
+
     }
 
     return {
-        a, b, output, color,
+        a, b, output,
         setA, setB,
         // actions (same names as MP1)
         doAdd, doSub, doMul, doDiv, doPow, clearAll,
