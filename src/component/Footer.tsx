@@ -20,7 +20,6 @@ const Foot = styled.footer`
 
         &:hover {
             text-decoration: none;
-            opacity: 0.9;
         }
     }
 
